@@ -1,0 +1,18 @@
+===== REPORTE DE SIMULACIÓN =====
+
+Fecha y hora: 2026-08-03 12:05:56.835262
+Puntaje obtenido: 0/1
+
+PREGUNTAS Y RESPUESTAS:
+
+Pregunta: ¿Qué función lee entrada del usuario?
+Respuesta usuario: A
+Respuesta correcta: B
+Resultado: False
+----------------------------
+
+Estadísticas por tema:
+{'Sin tema': 1}
+
+Estadísticas por dificultad:
+{'Sin dificultad': 1}

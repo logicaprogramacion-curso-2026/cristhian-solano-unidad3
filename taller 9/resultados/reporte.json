@@ -1,0 +1,21 @@
+{
+    "fecha_simulacion": "2026-08-03 12:05:56.835262",
+    "total_preguntas": 1,
+    "puntaje": 0,
+    "respuestas_correctas": 0,
+    "respuestas_incorrectas": 1,
+    "preguntas": [
+        {
+            "pregunta": "¿Qué función lee entrada del usuario?",
+            "respuesta_usuario": "A",
+            "respuesta_correcta": "B",
+            "resultado": false
+        }
+    ],
+    "estadisticas_tema": {
+        "Sin tema": 1
+    },
+    "estadisticas_dificultad": {
+        "Sin dificultad": 1
+    }
+}
