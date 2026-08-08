@@ -1,0 +1,2 @@
+print("Hola Logica de Programacion")cd ..
+
