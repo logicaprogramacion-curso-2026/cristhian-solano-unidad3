@@ -1,50 +1,53 @@
-# 📚 Sistema de Preguntas y Respuestas - Proyecto Taller X
+#  Sistema de Preguntas
 
-## 👥 Integrantes del Grupo
-- [Samuel Villa] - [0930563440]
-- [Emerson Jacome] - [0930739909]
-- [Valeria Vera] - [0930440383]
+##  Integrantes del Grupo
+- Mathias Medina - 
+- Kenny Blacio - 
+- Cristhian Solano - 
 #### **Fecha de inicio:** [27/07/2026]
-#### - Entrega: [03/08/2026]
+#### - Entrega: [08/08/2026]
 
-## 📝 Descripción del Proyecto
+##  Descripción del Proyecto
 
-El proyecto consiste en el desarrollo de un sistema de **Banco de Preguntas en Python**, diseñado para administrar, almacenar y evaluar preguntas de manera interactiva.
+El proyecto comprende el diseño e implementación de un Banco de Preguntas interactivo en Python, orientado al almacenamiento, administración y evaluación dinámica de reactivos.
 
-El sistema permite cargar preguntas desde archivos TXT, CSV y JSON, guardarlas en una base de datos SQLite y gestionarlas mediante diferentes módulos utilizando programación orientada a objetos.
+Capacidades Principales
 
-Cuenta con funcionalidades para visualizar preguntas, consultar estadísticas por tema y dificultad, realizar simulaciones de evaluaciones con selección aleatoria de preguntas, validar respuestas, calcular puntajes y generar reportes de resultados en formatos TXT, CSV y JSON.
+Gestión multiformato: Carga e importación flexible de datos desde archivos TXT, CSV y JSON, centralizando la persistencia en una base de datos SQLite mediante el patrón DAO (Data Access Object).
 
-La aplicación fue desarrollada aplicando una estructura modular con separación de responsabilidades entre la entidad de preguntas, acceso a datos (DAO), gestor de información y simulador, además de incluir pruebas unitarias para verificar el correcto funcionamiento del sistema.
+Evaluación e informes: Motor de simulación con selección aleatoria de reactivos, validación inmediata de respuestas, calificación automática y generación de reportes exportables a JSON, CSV y TXT.
 
-## 🛠️ Tecnologías Utilizadas
+Análisis de datos: Panel de consulta para visualizar estadísticas detalladas segmentadas por materia y nivel de dificultad.
+
+Arquitectura y Calidad
+Desarrollado bajo el paradigma de Programación Orientada a Objetos (POO), el sistema aplica una estricta separación de responsabilidades dividida en módulos independientes (entidades, acceso a datos, lógica de negocio y simulador). Además, incluye una suite de pruebas unitarias que garantiza la fiabilidad y correcto funcionamiento de cada componente.
+
+##  Tecnologías Utilizadas
 - Python 3.8+
 - SQLite3
 - Git
 
 
 
-## 📁 Estructura Inicial del Proyecto
-![estructura del proyecto](image-2.png)
-![entidad y su estructura](image-3.png)
-![constructor que sirve](image-5.png)
+##  Estructura Inicial del Proyecto
+![estructura del proyecto]
+![entidad y su estructura]
+![constructor que sirve]
 
-## 📄 Archivos de Preguntas Generados
+##  Archivos de Preguntas Generados
 - ✅ preguntas.txt (50 preguntas)
 - ✅ preguntas.csv (50 preguntas)
 - ✅ preguntas.json (50 preguntas)
-![archivos cargados](image.png)
-![archivo1](image-1.png)
-![archivo2](image-6.png)
-![archivo3](image-7.png)
+![archivos cargados]
+
 
 ## 🗄️ Base de Datos SQLite
 - ✅ Tabla 'preguntas' creada
 - ✅ Conexión exitosa
 - ✅ Métodos CRUD implementados
 
-![estructura de la tabla](image-8.png)
-![insercion](image-9.png)
+![estructura de la tabla]
+![insercio
 
 
 ## 📥 Carga de Datos desde Archivos
@@ -52,9 +55,9 @@ La aplicación fue desarrollada aplicando una estructura modular con separación
 - ✅ Carga desde CSV: 50 preguntas cargadas
 - ✅ Carga desde JSON: 50 preguntas cargadas
 
-![txt](image.png)
-![csv](image-1.png)
-![json](image-2.png)
+![txt]
+![csv]
+![json]
 
 ## 💾 Guardado en Base de Datos
 - ✅ 50 preguntas guardadas en SQLite
@@ -62,8 +65,8 @@ La aplicación fue desarrollada aplicando una estructura modular con separación
 - ✅ Exportación a CSV desde BD
 - ✅ Exportación a JSON desde BD
 
-![cargar a la base de datos](image-3.png)
-![archivos exportados](image-4.png)
+![cargar a la base de datos]
+![archivos exportados]
 
 ## 🎮 Simulador de Evaluación
 - ✅ Selección aleatoria de preguntas
@@ -71,51 +74,48 @@ La aplicación fue desarrollada aplicando una estructura modular con separación
 - ✅ Validación de respuestas
 - ✅ Cálculo de puntaje
 
-![](image-5.png)
+![]
 
 
-## 📊 Generación de Reportes
-- ✅ Reporte TXT generado
-- ✅ Reporte CSV generado
-- ✅ Reporte JSON generado
-![estadisticas.csv](image-6.png)
-![reporte.json](image-7.png)
-![respuestas.txt](image-8.png)
+##  Generación de Reportes
+-  Reporte TXT generado
+-  Reporte CSV generado
+-  Reporte JSON generado
+![estadisticas.csv]
+![reporte.json]
+![respuestas.txt]
 
 
 
-## ✅ Pruebas Finales
-- ✅ Pruebas unitarias pasadas
-- ✅ Integración completa verificada
-- ✅ Manejo de errores implementado
-
-![1](image-9.png)
-![2](image-10.png)
-![3](image-11.png)
-![4](image-12.png)
-![5](image-13.png)
-![6](image-14.png)
-![alt text](image-15.png)
+## Pruebas Finales
+-  Pruebas unitarias pasadas
+-  Integración completa verificada
+-  Manejo de errores implementado
 
 
-## 📝 Conclusiones
+
+##  Conclusiones
 
 ### Resumen del trabajo realizado
 
-Durante el desarrollo del proyecto se implementó un sistema de banco de preguntas en Python, permitiendo cargar preguntas desde archivos TXT, CSV y JSON, almacenarlas en una base de datos SQLite y gestionarlas mediante una arquitectura organizada por módulos. 
 
-Se desarrollaron componentes para la entidad de preguntas, acceso a datos mediante DAO, gestión de información, simulación interactiva de evaluaciones, validación de respuestas, cálculo de puntajes y generación de reportes en formatos TXT, CSV y JSON.
 
-Además, se implementó un menú principal para facilitar la interacción con el usuario, manejo de errores y pruebas unitarias para verificar el correcto funcionamiento de los módulos principales.
+Este proyecto abarcó el desarrollo integral de un sistema de evaluaciones interactivo en Python, estructurado bajo una arquitectura de separación de responsabilidades con acceso a bases de datos SQLite (patrón DAO) y exportación de reportes en TXT, CSV y JSON.
 
-### Lecciones aprendidas
+Componentes y Funcionalidades Desarrolladas
 
-Durante la realización del proyecto se reforzaron conocimientos de programación orientada a objetos en Python, manejo de archivos, conexión con bases de datos SQLite y organización de proyectos mediante separación de responsabilidades.
+Módulo central: Gestión de la entidad de preguntas, validación de respuestas en tiempo real, cálculo automático de puntajes y simulador interactivo.
 
-También se aprendió la importancia de realizar validaciones, crear pruebas unitarias y mantener una estructura clara del código para facilitar el mantenimiento y futuras modificaciones.
+Interfaz y robustez: Menú en consola para navegación fluida, control exhaustivo de excepciones y suite de pruebas unitarias para validar la estabilidad de los módulos.
 
-### Mejoras futuras
+Lecciones Aprendidas
 
-Como mejoras futuras se podría implementar una interfaz gráfica para mejorar la experiencia del usuario, agregar un sistema de usuarios con historial de evaluaciones, incluir más formatos de importación y exportación, y desarrollar un sistema de preguntas con diferentes niveles de dificultad adaptativos.
+Arquitectura y buenas prácticas: Consolidación de Programación Orientada a Objetos (POO), persistencia relacional con SQLite y manejo eficiente de archivos.
 
-También sería posible integrar inteligencia artificial para generar nuevas preguntas automáticamente o analizar el rendimiento de los usuarios.
+Calidad de software: Comprensión del valor de las pruebas unitarias, la validación estricta de datos y la organización modular para facilitar el mantenimiento futuro.
+
+Mejoras Futuras
+
+Experiencia de usuario y control: Evolución hacia una interfaz gráfica (GUI) e implementación de un módulo de autenticación con historial de intentos.
+
+Adaptabilidad e IA: Integración de dificultad adaptativa, compatibilidad con nuevos formatos de datos e inteligencia artificial para la generación automática de reactivos y análisis predictivo del rendimiento.
