@@ -1,0 +1,66 @@
+INICIO
+Inicializar Variables
+
+Mientras continuar = Verdadero
+    Limpiar Pantalla
+    Mostrar Menú Principal
+    Leer opción del usuario
+
+    Evaluar opción:
+        Caso 1 → RegistrarEstudiante()
+        Caso 2 → ConsultarEstudiante()
+        Caso 3 → ListarEstudiantes()
+        Caso 4 → RegistrarNotas()
+        Caso 5 → ConsultarNotas()
+        Caso 6 → CalcularPromedios()
+        Caso 7 → GenerarReporte()
+        Caso 8 → continuar = Falso
+        Otro → Mensaje de error
+
+    Si continuar = Verdadero:
+        Presione Enter para continuar
+        Volver al inicio del bucle
+    Si no:
+        Fin del programa
+
+FIN
+
+
+DIAGRAMA DE FLUJO - REGISTRAR ESTUDIANTE
+
+Inicio RegistrarEstudiante
+Mostrar título "Registro de Nuevo Estudiante"
+Leer cédula del estudiante
+
+Si existe estudiante con esa cédula:
+    Mostrar mensaje de error
+    Fin del subalgoritmo
+Si no:
+    Leer nombre, edad, carrera
+    Agregar a listaEstudiantes
+    Mostrar mensaje de éxito
+    Fin del subalgoritmo
+
+
+DIAGRAMA DE FLUJO - REGISTRAR NOTAS
+
+Inicio RegistrarNotas
+Mostrar título "Registro de Notas"
+Leer cédula del estudiante
+
+Si no existe estudiante con esa cédula:
+    Mostrar mensaje de error
+    Fin del subalgoritmo
+Si existe:
+    Leer asignatura
+    Leer nota1 (parcial 1)
+    Leer nota2 (parcial 2)
+    Leer nota3 (examen final)
+
+    Si las notas no están entre 0 y 20:
+        Mostrar mensaje de error
+        Fin del subalgoritmo
+    Si están entre 0 y 20:
+        Agregar a listaNotas
+        Mostrar mensaje de éxito
+        Fin del subalgoritmo
