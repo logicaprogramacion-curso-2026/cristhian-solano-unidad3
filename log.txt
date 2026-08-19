@@ -1,0 +1,10 @@
+[2026-08-19 00:34:58] 'ventas.csv' no encontrado. Historial inicializado vacío.
+[2026-08-19 00:34:58] Inicio de sesión de MiniTienda.
+[2026-08-19 00:34:58] INTENTO FALLIDO de venta: producto_id 99 no existe en el catálogo.
+[2026-08-19 00:34:58] Operación de guardado en 'ventas.csv' finalizada.
+[2026-08-19 00:34:58] Operación de guardado en 'ventas.csv' finalizada.
+[2026-08-19 00:34:58] Nuevo producto agregado: ID 6, Cargador USB-C, precio $8.50, stock inicial 60.
+[2026-08-19 00:34:58] Operación de guardado en 'ventas.csv' finalizada.
+[2026-08-19 00:34:58] Gráfico de ingresos exportado a 'ingresos.png'.
+[2026-08-19 00:34:58] Operación de guardado en 'ventas.csv' finalizada.
+[2026-08-19 00:34:58] Cierre de sesión de MiniTienda.
