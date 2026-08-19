@@ -1,0 +1,4 @@
+[2026-08-19 23:44:10] Intento fallido de venta: producto_id 'P099' no existe en el catálogo.
+[2026-08-19 23:44:10] Datos de demostración generados correctamente.
+[2026-08-19 18:46:52] Intento fallido de venta: producto_id 'P099' no existe en el catálogo.
+[2026-08-19 18:46:52] Datos de demostración generados correctamente.
